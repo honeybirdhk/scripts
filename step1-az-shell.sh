@@ -1,6 +1,6 @@
 #!/bin/bash
-myResourceGroup="peter-myrecoursegroup-1"
-myDockerVM="peter-myDockerVM-1"
+myResourceGroup="myRecourseGroup"
+myDockerVM="myDockerVM"
 
 az group create \
 	--name $myResourceGroup \
