@@ -1,4 +1,4 @@
-1. Open a az shell
+1. Open an az shell
 2. `git clone https://github.com/honeybirdhk/scripts.git`
 3. Run `bash script/step1-az-shell.sh`
 
