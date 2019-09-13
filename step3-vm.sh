@@ -34,8 +34,8 @@ az acr repository show-tags --name $acrname \
 	--output table
 
 result=$(az ad sp create-for-rbac --skip-assignment)
-appid=$(echo $result | grep appId | cut -d ',' -f 1 | cut -d ':' -f 2)
-password=$(echo $result | grep password | cut -d ',' -f 4 | cut -d ':' -f 2)
+appid=$(echo $result | grep appId | cut -d ',' -f 1 | cut -d ':' -f 2 | tr -d \")
+password=$(echo $result | grep password | cut -d ',' -f 4 | cut -d ':' -f 2 | tr -d \")
 
 acrid=$(az acr show --resource-group $myResourceGroup --name $acrname --query "id" --output tsv)
 az role assignment create --assignee $appid --scope $acrid --role acrpull
