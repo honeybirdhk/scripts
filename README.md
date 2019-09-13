@@ -7,4 +7,5 @@
 4. `git clone https://github.com/honeybirdhk/scripts.git`
 5. Run `bash script/step2-vm.sh`
 
+6. Run `bash script/step3-vm.sh`  (There are some interactive prompt that need user input)
 
