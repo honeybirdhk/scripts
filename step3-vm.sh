@@ -1,7 +1,7 @@
 #!/bin/bash
-acrname="peterierg4350"
-myResourceGroup="peter-myrecoursegroup-1"
-myAKSCluster="peter-myakscluster-1"
+acrname="ierg4350"
+myResourceGroup="myRecourseGroup"
+myAKSCluster="myAKSCluster"
 
 cd ~/azure-voting-app-redis
 sudo docker-compose down
