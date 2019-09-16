@@ -1,6 +1,6 @@
 #!/bin/bash
 acrname="ierg4350"
-myResourceGroup="myRecourseGroup"
+myResourceGroup="myResourceGroup"
 myAKSCluster="myAKSCluster"
 
 cd ~/azure-voting-app-redis
