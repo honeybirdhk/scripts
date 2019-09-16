@@ -1,5 +1,5 @@
 #!/bin/bash
-myResourceGroup="myRecourseGroup"
+myResourceGroup="myResourceGroup"
 myDockerVM="myDockerVM"
 
 az group create \
